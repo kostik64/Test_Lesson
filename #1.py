@@ -1,10 +1,10 @@
-a_int = 7
-b_float = 2.7
-c_str = "Привет Антон"
-d_list = ['b', '3']
-e_tuple = ('a', '2')
-f_dict = {'Город': 'Саратов', 'Страна': 'Россия'}
-
-plosk_list = [a_int, b_float, c_str, d_list, e_tuple, f_dict]
-for i in plosk_list:
-    print(f'{i} is {type(i)}')
+#2 Это номер 2
+n = input('Имя')
+s = input('Фамилия')
+y = int(input('Возраст'))
+c = input('Укажи город')
+e = input('Напиши емаил')
+t = int(input('Напиши номер телефона'))
+def my_func (n, s, y, c, e, t):
+     return ' '.join([n, s, y, c, e, t])
+print(my_func(s, n, y, c, e, t))
